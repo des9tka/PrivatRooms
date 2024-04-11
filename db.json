@@ -1,0 +1,79 @@
+{
+  "rooms": [
+    {
+      "id": "7fa0d608-1ca5-4b2c-a456-913f94f98e9a",
+      "name": "First",
+      "description": "somef sehgs fefgseuygfsyeug fseygfysegfuysegfysegfsgeuyfsgfuygseyfgsyegfsuyegfsyusegf",
+      "messages": [
+        "1comm",
+        "2comm",
+        "new one",
+        "dawdaawd",
+        "some",
+        "okaaaaaaaaay",
+        "ddawd",
+        "wadawd",
+        "awdad",
+        "dgdrgd",
+        "dwaawd"
+      ],
+      "private": false,
+      "password": null
+    },
+    {
+      "id": "d5313ea2-ea0b-4c75-b6b1-d7f4fd74d6d6",
+      "name": "Second",
+      "description": "Something",
+      "messages": [],
+      "private": false,
+      "password": null
+    },
+    {
+      "id": "d5313ea2-ea0b-4c75-b641-gdt1fd74d6d6",
+      "name": "Third",
+      "description": "Something private",
+      "messages": [
+        "fisrst com",
+        "dawawd",
+        "fsefsf",
+        "dawawd",
+        "some",
+        "awdawdad"
+      ],
+      "private": true,
+      "password": "1234"
+    },
+    {
+      "id": "b50ac23a-63b1-403a-b05e-5e5ebdec7304",
+      "name": "dawa",
+      "description": "dawdawd",
+      "messages": [],
+      "private": false,
+      "password": null
+    },
+    {
+      "id": "262ae167-c117-4287-bce4-b17d018d85aa",
+      "name": "Sovenok",
+      "description": "some",
+      "messages": [
+        "dwaad",
+        "dwaaw",
+        "gdrg"
+      ],
+      "private": true,
+      "password": "1234"
+    },
+    {
+      "id": "d4ce54d7-2f02-43a5-a515-4f7f80fd5ace",
+      "name": "awad",
+      "description": "awdawd",
+      "messages": [
+        "awdwd",
+        "dwaawd",
+        "awdawd"
+      ],
+      "private": false,
+      "password": null
+    }
+  ]
+}
