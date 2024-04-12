@@ -28,7 +28,6 @@ export default {
   border: 1px solid black;
   padding: 2%;
   background: black;
-
 }
 
 a {
@@ -42,4 +41,5 @@ h3 {
 label {
   color: white;
 }
+
 </style>

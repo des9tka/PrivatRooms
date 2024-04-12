@@ -19,7 +19,7 @@
 
         <div v-if="this.password_field">
           <label>Room Password</label><br>
-          <input v-model="room_password"/>
+          <input v-model="room_password" placeholder="Password"/>
         </div>
         <input type="submit" value="Create Room"/>
       </form>
@@ -28,9 +28,8 @@
 
   <div v-if="this.field === 'join'">
     <form v-on:submit="joinRoom">
-      <label>Room Key</label>
-      <input v-model="room_key" type="text">
-
+      <label>Room Key</label><br>
+      <input v-model="room_key" type="text" placeholder="Key"/>
       <div>
         <label>Private</label>
         <input type="checkbox" v-model="room_private" v-on:click="passwordFieldChange">
@@ -38,7 +37,7 @@
 
       <div v-if="this.password_field">
         <label>Room Password</label>
-        <input v-model="room_password"/>
+        <input v-model="room_password" placeholder="Password"/>
       </div>
 
       <input type="submit" value="Join Room"/>
@@ -126,6 +125,7 @@ input {
   color: white;
   height: 125%;
   margin-bottom: 5%;
+  text-align: center;
 }
 
 .formContainer {

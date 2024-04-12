@@ -56,7 +56,6 @@ export default {
         const button = document.getElementsByClassName('changeFieldButton')[0]
         button.innerHTML = 'Create Room'
       }
-
     },
 
     createRoom(newRoom) {

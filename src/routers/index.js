@@ -4,7 +4,6 @@ import Home from "@/pages/Home.vue";
 import Room from "@/pages/Room.vue";
 import Rooms from "@/pages/Rooms.vue";
 import RoomForm from "@/components/RoomForm.vue";
-import Settings from "@/pages/Settings.vue";
 import About from "@/pages/About.vue";
 
 const routes = [
@@ -27,11 +26,6 @@ const routes = [
         path: '/room-form',
         name: 'RoomForm',
         component: RoomForm
-    },
-    {
-        path: '/settings',
-        name: 'Settings',
-        component: Settings
     },
     {
         path: '/about',

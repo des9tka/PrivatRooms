@@ -1,5 +1,6 @@
 <template>
-<h1>About</h1>
+  <h1>Info</h1>
+  <h3>IMT | Version 1.0.0</h3>
 </template>
 
 <script>
@@ -9,5 +10,8 @@ export default {
 </script>
 
 <style scoped>
-
+h1 {
+  color: aqua;
+  font-size: 20px;
+}
 </style>

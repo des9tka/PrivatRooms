@@ -46,5 +46,14 @@ export default {
 </script>
 
 <style scoped>
-
+input {
+  font-size: 18px;
+  border: 1px solid aqua;
+  border-radius: 10%;
+  background: black;
+  color: white;
+  margin-bottom: 5%;
+  text-align: center;
+  width: 25%;
+}
 </style>
